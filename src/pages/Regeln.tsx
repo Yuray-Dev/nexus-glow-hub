@@ -157,10 +157,10 @@ const Regeln = () => {
       <div className="relative py-20 px-6">
         <div className="absolute inset-0 bg-gradient-dark opacity-50" />
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-neon rounded-full mb-6">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-gold rounded-full mb-6">
             <ScrollText className="w-8 h-8 text-primary-foreground" />
           </div>
-          <h1 className="text-5xl font-bold mb-4 bg-gradient-neon bg-clip-text text-transparent">
+          <h1 className="text-5xl font-bold mb-4 bg-gradient-gold bg-clip-text text-transparent">
             Server Regeln
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

@@ -62,21 +62,21 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				neon: {
-					cyan: 'hsl(var(--neon-cyan))',
-					purple: 'hsl(var(--neon-purple))',
-					green: 'hsl(var(--neon-green))'
+				lsr: {
+					gold: 'hsl(var(--lsr-gold))',
+					'gold-light': 'hsl(var(--lsr-gold-light))',
+					'gold-dark': 'hsl(var(--lsr-gold-dark))'
 				}
 			},
 			backgroundImage: {
-				'gradient-neon': 'var(--gradient-neon)',
+				'gradient-gold': 'var(--gradient-gold)',
 				'gradient-dark': 'var(--gradient-dark)',
 				'gradient-card': 'var(--gradient-card)'
 			},
 			boxShadow: {
-				'neon': 'var(--shadow-neon)',
-				'glow-cyan': 'var(--glow-cyan)',
-				'glow-purple': 'var(--glow-purple)'
+				'gold': 'var(--shadow-gold)',
+				'glow-gold': 'var(--glow-gold)',
+				'glow-gold-strong': 'var(--glow-gold-strong)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

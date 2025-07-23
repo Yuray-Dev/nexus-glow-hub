@@ -3,7 +3,6 @@ import { Menu, X, MessageCircle, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link, useLocation } from 'react-router-dom';
 import heroImage from '@/assets/hero-video-placeholder.jpg';
-import lsrLogo from '@/assets/lsr-logo-neon.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,7 +35,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src={lsrLogo} 
+              src="/lovable-uploads/8a6b7c4e-9dea-4f61-a1fa-f476884ae767.png" 
               alt="LSR Los Santos RealLife" 
               className="h-12 w-12 mr-3"
             />
@@ -117,7 +116,7 @@ const Header = () => {
       {/* Hero Content */}
       <div className="relative z-10 flex-1 flex items-center justify-center px-6">
         <div className="text-center max-w-4xl mx-auto">
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-neon bg-clip-text text-transparent">
+          <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-gold bg-clip-text text-transparent">
             Willkommen bei<br />LSR Los Santos<br />REALLIFE
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">

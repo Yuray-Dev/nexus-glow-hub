@@ -135,10 +135,10 @@ const Updates = () => {
       <div className="relative py-20 px-6">
         <div className="absolute inset-0 bg-gradient-dark opacity-50" />
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-neon rounded-full mb-6">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-gold rounded-full mb-6">
             <Zap className="w-8 h-8 text-primary-foreground" />
           </div>
-          <h1 className="text-5xl font-bold mb-4 bg-gradient-neon bg-clip-text text-transparent">
+          <h1 className="text-5xl font-bold mb-4 bg-gradient-gold bg-clip-text text-transparent">
             Updates & Changelog
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -157,7 +157,7 @@ const Updates = () => {
               <Card 
                 key={update.id} 
                 className={`glass-card border-border/50 transition-all duration-300 hover:border-primary/50 ${
-                  update.isHighlighted ? 'ring-2 ring-primary/30 shadow-glow-cyan' : ''
+                  update.isHighlighted ? 'ring-2 ring-primary/30 shadow-glow-gold' : ''
                 }`}
               >
                 <CardHeader className="pb-4">

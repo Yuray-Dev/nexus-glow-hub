@@ -57,7 +57,7 @@ const Index = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((feature, index) => (
-              <Card key={index} className="glass-card border-border/50 hover:border-primary/50 transition-all duration-300 group hover:shadow-glow-cyan">
+              <Card key={index} className="glass-card border-border/50 hover:border-primary/50 transition-all duration-300 group hover:shadow-glow-gold">
                 <CardContent className="p-6 text-center">
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/20 rounded-full mb-4 group-hover:scale-110 transition-transform duration-300">
                     <feature.icon className="w-8 h-8 text-primary" />
@@ -86,7 +86,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-neon rounded-full mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-gold rounded-full mb-4">
                   <stat.icon className="w-8 h-8 text-primary-foreground" />
                 </div>
                 <div className="text-3xl font-bold text-foreground mb-2">{stat.value}</div>
@@ -101,7 +101,7 @@ const Index = () => {
       <section className="py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <div className="glass-card p-12">
-            <h2 className="text-4xl font-bold mb-4 bg-gradient-neon bg-clip-text text-transparent">
+            <h2 className="text-4xl font-bold mb-4 bg-gradient-gold bg-clip-text text-transparent">
               Bereit für dein Abenteuer?
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
