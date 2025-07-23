@@ -3,6 +3,7 @@ import { Menu, X, MessageCircle, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link, useLocation } from 'react-router-dom';
 import heroImage from '@/assets/hero-video-placeholder.jpg';
+import lsrLogo from '@/assets/lsr-logo-neon.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,8 +34,13 @@ const Header = () => {
       <nav className="relative z-10 w-full p-6">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           {/* Logo */}
-          <div className="text-2xl font-bold text-primary">
-            FiveM Server
+          <div className="flex items-center">
+            <img 
+              src={lsrLogo} 
+              alt="LSR Los Santos RealLife" 
+              className="h-12 w-12 mr-3"
+            />
+            <span className="text-xl font-bold text-foreground">LSR</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -112,10 +118,10 @@ const Header = () => {
       <div className="relative z-10 flex-1 flex items-center justify-center px-6">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-neon bg-clip-text text-transparent">
-            Willkommen bei<br />FiveM Server
+            Willkommen bei<br />LSR Los Santos<br />REALLIFE
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Dein RP-Abenteuer beginnt hier. Erlebe die ultimative Roleplay-Erfahrung in einer lebendigen und authentischen Welt.
+            Dein ultimatives Roleplay-Erlebnis in Los Santos. Erlebe authentisches Leben in der Stadt der Engel.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="neon-button text-lg px-8 py-4">
